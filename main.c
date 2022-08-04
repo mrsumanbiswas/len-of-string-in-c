@@ -3,10 +3,10 @@
 int main(void)
 {
     char String[1000];
-    int string_lenght;
-    printf("Enter a string and check it's lenght\n");
+    int string_length;
+    printf("Enter a string and check it's length\n");
     scanf("%s", String);
-    for (; String[string_lenght] != '\0'; string_lenght++);
-    printf("The lenght of the string is %d\n", string_lenght);
+    for (; String[string_length] != '\0'; string_length++);
+    printf("The length of the string is %d\n", string_length);
     return 0;
 }
