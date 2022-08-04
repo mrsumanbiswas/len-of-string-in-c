@@ -1,6 +1,6 @@
 // C program to find the length of string
 #include <stdio.h>
-int main()
+int main(void)
 {
     char String[1000];
     int string_lenght;
