@@ -6,8 +6,7 @@ int main()
     int string_lenght;
     printf("Enter a string and check it's lenght\n");
     scanf("%s", String);
-    for (; String[string_lenght] != '\0'; string_lenght++)
-        ;
+    for (; String[string_lenght] != '\0'; string_lenght++);
     printf("The lenght of the string is %d\n", string_lenght);
     return 0;
 }
